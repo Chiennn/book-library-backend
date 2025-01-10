@@ -5,7 +5,7 @@ const connection = mysql.createConnection({
   user: process.env.DB_USER || 'root',     // Thay bằng username đúng
   password: process.env.DB_PASSWORD || 'Linh@1909', // Thay bằng mật khẩu đúng
   database: process.env.DB_NAME || 'library', // Thay bằng tên database đúng
-  port: process.env.DB_PORT || 3306        // Port MySQL (thường là 3306)
+  // port: process.env.DB_PORT || 3306        // Port MySQL (thường là 3306)
 });
 
 connection.connect((err) => {
